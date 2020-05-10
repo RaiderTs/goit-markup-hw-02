@@ -76,7 +76,7 @@
     color: var(--page-color);
 }
 
-.title {
+.item {
     color: var(--title-text-color);
     font-family: Roboto;
     font-size: 16px;
@@ -135,8 +135,7 @@
 }
 
 .auth {
-    color: var(--page-color);
-    text-decoration: none;
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -162,7 +161,7 @@
 
 /* Преимущества. Стили заголовков*/
 
-.section-list {
+.title {
     color: var(--page-color);
     font-family: Roboto;
     font-weight: bold;
@@ -174,7 +173,7 @@
 
 /* Чем мы занимаемся */
 
-.white-color {
+.white-color-title {
     color: var(--white-color);
     background-color: var(--title-text-color);
     font-family: Roboto;
@@ -187,7 +186,7 @@
 
 /* Наша команда */
 
-.section-text {
+.section-with-title {
     color: var(--page-color);
     font-family: Roboto;
     font-weight: 500;
@@ -195,21 +194,22 @@
     line-height: 1.19;
 }
 
-.list-title {
+.list-item {
     color: var(--title-text-color);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.9;
 }
 
+.description {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 0.71;
+}
+
 
 /* Стиль текста  - Наши работы в портфолио */
-
-.tittle {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 1.88;
-}
 
 .name_of_cards {
     color: var(--page-color);
@@ -241,11 +241,23 @@
 }
 
 .copyright {
-    color: var(--footer-bottom-collor);
-    background-color: var(--title-text-color);
+    font-family: Roboto;
     font-size: 12px;
     line-height: 2;
     text-align: center;
+    color: var(--footer-bottom-collor);
+}
+
+.auth_bottom {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.auth_bottom:hover,
+.auth_bottom:focus {
+    color: var(--accent-color);
 }
 
 
@@ -258,6 +270,12 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+}
+
+.button .primary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 
 .button .primary:hover,
