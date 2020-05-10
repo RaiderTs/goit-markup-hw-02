@@ -240,9 +240,12 @@
     color: var(--white-color);
 }
 
-.bottom {
+.copyright {
     color: var(--footer-bottom-collor);
     background-color: var(--title-text-color);
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
 }
 
 
